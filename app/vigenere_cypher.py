@@ -49,9 +49,3 @@ class VigenereCypher:
             plain_text_letter = self.alphabet[decryption_index % len(self.alphabet)]
             plaintext.append(plain_text_letter)
         return "".join(plaintext)
-
-
-if __name__ == "__main__":
-    x = VigenereCypher()
-    key = "MochiSucks"
-    print(x.decrypt("rfqwxqcukoqgqtm", key))

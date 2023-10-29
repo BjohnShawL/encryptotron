@@ -1,1 +1,1 @@
-include LICENSE
+click>=7.1.2
